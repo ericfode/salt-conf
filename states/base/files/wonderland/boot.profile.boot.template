@@ -1,0 +1,9 @@
+(require 'boot.repl)
+
+(swap! boot.repl/*default-dependencies*
+       concat '[[cider/cider-nrepl "{{cider_nrepl_version}}"]
+                [refactor-nrepl "{{refactor_nrepl_version}}"]])
+
+(swap! boot.repl/*default-middleware*
+       conj 'cider.nrepl/cider-middleware
+            'refactor-nrepl.middleware/wrap-refactor)

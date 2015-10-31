@@ -1,0 +1,13 @@
+include:
+  - wonderland.min-pkgs
+  - wonderland.flux
+  - wonderland.shell
+  - wonderland.emacs
+  - wonderland.streaming
+  - wonderland.code
+  - wonderland.graphics
+  - wonderland.node
+  - wonderland.xmonad
+  - wonderland.projects
+  - wonderland.pianobar
+  - wonderland.chrome

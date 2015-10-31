@@ -1,0 +1,4 @@
+{:user {:plugins [[cider/cider-nrepl "{{ cider_nrepl_version }}"]
+                  [refactor-nrepl "{{ refactor_nrepl_version }}"]]
+        :dependencies [[alembic "0.3.2"]
+                       [org.clojure/tools.nrepl "{{ nrepl_tools_version }}"]]}}
